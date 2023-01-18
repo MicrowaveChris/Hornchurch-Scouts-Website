@@ -1,0 +1,51 @@
+body {
+	font-family: "Nunito Sans", sans-serif; 
+}
+
+h1 {
+	font-family: "Nunito Sans Black",sans-serif;
+}
+
+h2 {
+	font-family: "Nunito Sans Black",sans-serif;
+}
+
+h3 {
+	font-family: "Nunito Sans Black",sans-serif;
+}
+
+h4 {
+	font-family: "Nunito Sans Black",sans-serif;
+}
+
+h5 {
+	font-family: "Nunito Sans Black",sans-serif;
+}
+
+h6 {
+	font-family: "Nunito Sans Black",sans-serif;
+}
+
+.scouts-purple-bg {
+	background-color: rgb(116, 20, 220);
+}
+	
+.white-txt {
+	color: white;
+}
+
+.footer-lists {
+	list-style-type: none; 
+	padding:0px;
+}	
+
+.footer-links {	
+	color: white;
+	text-decoration: none;
+}
+
+a.footer-links:hover {
+	color:#00b8a3; 
+    text-decoration:none; 
+    cursor:pointer;  
+}

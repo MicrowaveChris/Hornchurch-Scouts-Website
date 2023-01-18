@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	
+		<title>Home</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- CDN Bootsrap Scripts -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">			
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="global/style/hornchurch-scouts.css">
+		<link rel="stylesheet" href="pages/index//style/index.css">
+		
+		<!-- Scouts Font (Google) -->		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900">
+		
+	</head>
+	
+	<body>
+	
+	<!-- Static Navbar -->
+	<nav class="navbar navbar-expand-lg scouts-purple-bg sticky-top" aria-label="Scouts Navbar">
+		<div class="container">
+				
+		<!-- Logo -->
+		<a class="navbar-brand" href="home.html">
+			<img class="logo" src="global/images/logos/district-logo-white.png">
+		</a>
+				
+		<!-- Dropdown button on screen resize -->
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScouts" aria-controls="navbarScouts" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- Navbar links -->
+		<div class="collapse navbar-collapse " id="navbarScouts">
+		
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+			<li class="nav-item ">
+				<a class="nav-link white-txt" aria-current="page" href="index.html">Home</a>
+			</li>
+			
+			<li class="nav-item t">
+				<a class="nav-link white-txt">District</a>
+			</li>
+
+			<li class="nav-item t">
+				<a class="nav-link white-txt">Join</a>
+			</li>	
+
+			<li class="nav-item t">
+				<a class="nav-link white-txt">Calander</a>
+			</li>			
+			
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle white-txt" href="#" data-bs-toggle="dropdown" aria-expanded="false">Sections</a>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="#">Squirrels</a></li>
+					<li><a class="dropdown-item" href="#">Beavers</a></li>
+					<li><a class="dropdown-item" href="cubs.html">Cubs</a></li>
+					<li><a class="dropdown-item" href="#">Scouts</a></li>
+					<li><a class="dropdown-item" href="#">Explorers</a></li>
+					<li><a class="dropdown-item" href="#">Network</a></li>
+				</ul>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle white-txt" href="#" data-bs-toggle="dropdown" aria-expanded="false">Forms</a>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="#">Squirrels</a></li>
+					<li><a class="dropdown-item" href="#">Beavers</a></li>
+					<li><a class="dropdown-item" href="#">Cubs</a></li>
+					<li><a class="dropdown-item" href="#">Scouts</a></li>
+					<li><a class="dropdown-item" href="#">Explorers</a></li>
+					<li><a class="dropdown-item" href="#">Network</a></li>
+				</ul>
+			</li>
+		
+        </ul>
+
+		</div>
+		</div>
+	</nav>
+		
+	<!-- Carousel -->
+	<div id="scoutsCarousel" class="carousel slide" data-bs-ride="carousel">
+	
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#scoutsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#scoutsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#scoutsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+	
+	<!-- Carousel Content -->
+    <div class="carousel-inner" >
+	
+      <div class="carousel-item active" style="max-height: 575px" >
+	  
+		<div class=" ">
+		<img src="pages/index/images/explorer-belt-expedition-4-jpg.jpg" class="img-fluid " >
+		</div>
+        <div class="container">
+					
+          <div class="carousel-caption text-start">
+            <h1>Example headline.</h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+		
+      </div>
+	  
+     <div class="carousel-item" style="max-height: 575px">
+		<img src="pages/index/images/team-of-scouts-rowing-jpg.jpg" class="img-fluid ">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+	  
+    <div class="carousel-item" style="max-height: 575px">
+	  	<img src="pages/index/images/scouts-grass-sledging-2-jpg.jpg" class="img-fluid ">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+	  
+    </div>
+	
+	<!-- prev/left button -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#scoutsCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+	<!-- next/right button -->
+    <button class="carousel-control-next" type="button" data-bs-target="#scoutsCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+	</div>	
+		
+	<div class="container">
+		<div class="row">
+		<div class="col-lg-8 p-5">
+			<h1>Welcome to Hornchurch District</h1>
+			<hr>
+			<p class="p-1">Scouting offers challenge and adventure to 400,000 young people and 100,000 adults across the UK and here in Hornchurch District we are proud to offer Scouting to over 1500 of these youngsters, in Beaver Colonies, Cub Packs ,Scout Troops and Explorer Sections in Ardleigh Green, Corbets Tey ,Cranham, Elm Park, Emerson Park, Hornchurch, Rainham and Upminster.</p>
+			<p class="p-1">We believe in helping our Members fulfil their potential by working in teams and this gives them the skill to do and think for themselves. People from every background and culture have the opportunity to stretch themselves, learn new skills and make life long friends.
+Whatever your age, Scouting in the 21st century is challenging, stimulating, imaginative,  rewarding and above all FUN!!! Scouting is for young people from the age of 6 through to 25, with each of these youth sections following an exciting programme.</p>
+			<p class="p-1 m-0">The  challenge and adventure isn’t just for our youth members. Adult volunteers have lots of fun too, in the knowledge that they are giving something back to society by helping children and young people meet their potential.</p>
+		</div>
+		<div class="col-lg-4 p-5">
+			<img src="global/images/logos/Digital-District-Badge.jpg" class="img-fluid">
+		</div>
+		</div>
+	</div>
+	
+		<div class="container-fluid p-4" style="background-color:#00b8a3; text-align:center; color:white">
+			<h3 class="m-0">Want to be a Scout?   </button> <button type="button" class="btn btn-outline-light btn-lg" style="border-width:5px; "><h3 class="m-0">Join now!</h3></button></h3>
+		</div>
+		
+		<!-- Sections Quick Links -->
+		<div class="container-fluid p-5">
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gx-2 g-lg-3">
+			
+				<div class="col">
+						<div class="p-3">
+						
+						<div class="section-logo squirrels-logo">
+
+						<div class="logo-white">
+						<img src="global/images/logos/squirrels-logo-white.png" class="img-fluid img-responsive" style="" alt="Squirrels">
+						</div>
+						
+						<div class="logo-color">
+						<img src="global/images/logos/squirrels-logo.png" class="img-fluid img-responsive" alt="Squirrels">
+						</div>
+						
+						<h2>4-6 years</h2>
+						</div>
+						
+						</div>
+				</div>
+				
+				<div class="col" >
+						<div class="p-3" >
+						
+						<div class="section-logo beavers-logo">
+						<div class="logo-white">
+						<img src="global/images/logos/beavers-logo-white.png" class="img-fluid img-responsive" alt="Beavers">
+						</div>
+						<div class="logo-color">
+						<img src="global/images/logos/beavers-logo.png" class="img-fluid img-responsive" alt="Beavers">
+						</div>
+						
+						<h2>6-8 years</h2>
+						</div>
+						</div>
+				</div>
+				
+				<div class="col" >
+						<div class="p-3" >
+						<a href="cubs.html" style="text-decoration:none;">
+						
+						<div class="section-logo cubs-logo">
+						<div class="logo-white">
+						<img src="global/images/logos/cubs-logo-white.png" class="img-fluid img-responsive" alt="Cubs">
+						</div>
+						<div class="logo-color">
+						<img src="global/images/logos/cubs-logo.png" class="img-fluid img-responsive" alt="Cubs">
+						</div>
+						<h2>8-10&#189; years</h2>
+						</div>
+						</a>
+						</div>
+				</div>
+			
+				<div class="col" >
+						<div class="p-3" >
+						
+						<div class="section-logo scouts-logo">
+						<div class="logo-white">
+						<img src="global/images/logos/scouts-logo-white.png" class="img-fluid img-responsive" alt="Scouts">
+						</div>
+						<div class="logo-color">
+						<img src="global/images/logos/scouts-logo.png" class="img-fluid img-responsive" alt="Scouts">
+						</div>
+						<h2>10&#189;-14 years</h2>
+						</div>
+						</div>
+				</div>	
+				<div class="col" >
+						<div class="p-3">
+						
+						<div class="section-logo explorers-logo">
+						<div class="logo-white">
+						<img src="global/images/logos/explorers-logo-white.png" class="img-fluid img-responsive" alt="Explorers">
+						</div>
+						<div class="logo-color">
+						<img src="global/images/logos/explorers-logo.png" class="img-fluid img-responsive" alt="Explorers">
+						</div>
+						<h2>14-18 years</h2>
+						</div>
+						</div>
+				</div>
+				<div class="col" >
+						<div class="p-3">
+						<div class="section-logo network-logo">
+						<div class="logo-white">
+						<img src="global/images/logos/network-logo-white.png" class="img-fluid img-responsive" alt="Network">
+						</div>
+						<div class="logo-color">
+						<img src="global/images/logos/network-logo.png" class="img-fluid img-responsive" alt="Network">
+						</div>
+						<h2>18-25 years</h2>
+						</div>
+						</div>
+				</div>
+			</div>	
+		</div>
+		
+		<div class="container">
+			<h1>Adult Volunteers</h1>
+			<hr>
+			
+		</div>
+		
+		<!-- Footer -->		
+		<div class="container-fluid card-footer scouts-purple-bg">
+			<div class="container white-txt">
+			
+			<div class="row p-5 ">
+				<div class="col-lg-3 ">
+					<h6>Useful Links</h6>
+					<hr>
+					<ul class="footer-lists">
+					
+					<li><a href="#" class="footer-links">National Website</a></li>
+					<li><a href="#" class="footer-links">Thriftwood</a></li>
+					<li><a href="#" class="footer-links">Scout Shop</a></li>
+					<li><a href="#" class="footer-links">GHISP</a></li>
+					</ul>
+					
+				</div>
+				<div class="col-lg-3">
+					<h6>More Information</h6>
+					<hr>	
+					
+				</div>
+				<div class="col-lg-3">
+					<h6>Follow Us</h6>
+					<hr>			
+						<ul class="footer-lists" >
+						<li><a href="#" class="footer-links"><svg src="global/images/icons/facebook.svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" style="margin-right:5px;"></svg>Facebook</a></li>
+						<li><a href="#" class="footer-links"><svg src="global/images/icons/instagram.svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16" style="margin-right:5px;"></svg>Instagram</a></li>						
+						<li><a href="#" class="footer-links"><svg src="global/images/icons/twitter.svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16" style="margin-right:5px;"></svg>Twitter</a></li>
+						</ul>
+				</div>
+				<div class="col-lg-3">
+					<h6>Contact Us<hr>District Headquarters:</h6>
+					<p>The Paddock<br>Wood Lane<br>Hornchurch<br>Essex<br>RM12 5HN</p>
+				</div>
+			</div>
+			<div class="container p-5">
+			<p>&copy; Copyright 2023 Hornchurch District. All rights resevered.<br>
+			Charity Number: xxxxxx<br>
+			Website <a href="#">Terms and Conditions</a>, <a href="#">Data Protection</a>, and <a href="#"> Cookie Policy</a><p>
+
+			</div>
+		</div>
+		</div>
+
+	</body>
+	
+</html>

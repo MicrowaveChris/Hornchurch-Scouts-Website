@@ -1,0 +1,85 @@
+/* Section Logos/Buttons */
+.logo {
+	max-height: 100px;
+	height: 100%;
+}
+
+.section-logo {
+	text-align:center;
+	color:white;
+}
+
+.section-logo: {
+	padding-bottom:10px;
+}
+
+h2#section-logo {
+	margin-bottom:20px
+}
+	
+.squirrels-logo {
+	background-color:rgb(237,64,36);
+}
+
+.squirrels-logo:hover {
+	background-color:white;
+	color:rgb(237,64,36);
+}
+
+.beavers-logo {
+	background-color:rgb(0,110,225);
+}
+
+.beavers-logo:hover {
+	background-color:white;
+	color:rgb(0,110,225);
+}
+
+.cubs-logo {
+	background-color:rgb(97,187,70);
+}
+
+.cubs-logo:hover {
+	background-color:white;
+	color:rgb(97,187,70);
+}
+
+.scouts-logo {
+	background-color:rgb(0,72,81);
+}
+
+.scouts-logo:hover {
+	background-color:white;
+	color:rgb(0,72,81);
+}
+
+.explorers-logo {
+	background-color:rgb(0,58,130);
+}
+
+.explorers-logo:hover {
+	background-color:white;
+	color:rgb(0,58,130);
+}
+
+.network-logo {
+	background-color:rgb(0,0,0);
+}
+
+.network-logo:hover {
+	background-color:white;
+	color:rgb(0,0,0);
+}
+
+.logo-color {
+	display:none;
+}
+
+
+.section-logo:hover .logo-white {
+	display:none;
+}
+
+.section-logo:hover .logo-color {
+	display:block;
+}
