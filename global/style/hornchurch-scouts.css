@@ -34,6 +34,15 @@ h6 {
 	color: white;
 }
 
+.nav-logo {
+	max-height: 100px;
+	height: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
 .footer-lists {
 	list-style-type: none; 
 	padding:0px;
@@ -48,4 +57,24 @@ a.footer-links:hover {
 	color:#00b8a3; 
     text-decoration:none; 
     cursor:pointer;  
+}
+
+.sections-banner {
+	overflow:hidden; 
+	max-height: 575px; 
+	padding:0px;
+}
+
+.sections-join {
+	background-color:#00b8a3;
+	color:white;
+	text-align:center;
+}
+
+.sections-join-button {
+	border-width:5px;
+}
+
+.sections-badge-banner {
+	max-height: 171px;
 }
